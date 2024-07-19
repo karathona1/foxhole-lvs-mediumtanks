@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "vehicles/talos/LightTankLargeCBag"
+	"$bumpmap" "vehicles/talos/LightTankLargeCBagN"
+	"$surfaceprop" "Dirt"
+	"$envmapsaturation" 1
+
+	"$color2" "[1.5 1.5 1.5]"				
+	"$nocull" "1"					
+}
