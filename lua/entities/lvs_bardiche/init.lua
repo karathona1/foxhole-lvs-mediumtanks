@@ -17,6 +17,8 @@ function ENT:OnSpawn( PObj )
 	GunnerSeat.HidePlayer = false
 	self:SetGunnerSeat( GunnerSeat )
 
+	local Pod1 = self:AddPassengerSeat( Vector(-10,-24,70), Angle(0,-90,0))
+
 	local ID = self:LookupAttachment( "muzzle_end" )
 	local Muzzle = self:GetAttachment( ID )
 	self.SNDTurret = self:AddSoundEmitter( self:WorldToLocal( Muzzle.Pos ), "vehicles/LightTankColonialShot01.wav", "vehicles/LightTankColonialShot02.wav" )
